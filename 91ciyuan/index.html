@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>91次元网页版-在线观看入口与追番指南_次元站资源与更新动态</title>
+<meta name="description" content="91次元网页版聚焦二次元在线观看与追番体验，整理91次元网页版入口、番剧分类、更新动态、口碑评价与常见问题，帮助动漫爱好者快速找到合适的番剧、了解观看顺序与更新节奏，并提供同类次元站对比参考。">
+<meta name="keywords" content="91次元网页版,91次元在线观看,91次元追番,次元站资源,动漫在线观看入口">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1440'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23ff7ac6' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%2364e2ff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0f0b23;
+  --bg2:#151033;
+  --card:#1b1540;
+  --card2:#221a4e;
+  --line:rgba(255,255,255,.09);
+  --txt:#e9e6ff;
+  --sub:#a9a3cf;
+  --pink:#ff7ac6;
+  --cyan:#64e2ff;
+  --violet:#9b7bff;
+  --gold:#ffd479;
+  --radius:16px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  background:
+    radial-gradient(900px 500px at 85% -10%,rgba(155,123,255,.22),transparent 65%),
+    radial-gradient(700px 420px at 0% 0%,rgba(255,122,198,.14),transparent 60%),
+    var(--bg);
+  color:var(--txt);
+  line-height:1.75;
+  font-size:15px;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 18px}
+.sec{padding:52px 0}
+.sec-h{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:26px;flex-wrap:wrap}
+.sec-h h2{font-size:24px;letter-spacing:.5px;position:relative;padding-left:16px}
+.sec-h h2::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:5px;border-radius:4px;background:linear-gradient(180deg,var(--pink),var(--violet))}
+.sec-h p{color:var(--sub);font-size:13.5px;max-width:640px}
+.sec-more{font-size:13px;color:var(--cyan);border:1px solid rgba(100,226,255,.35);padding:6px 14px;border-radius:999px;white-space:nowrap}
+.sec-more:hover{background:rgba(100,226,255,.12)}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:60;background:rgba(15,11,35,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1200px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:22px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;letter-spacing:.5px;white-space:nowrap}
+.logo .mark{width:32px;height:32px;border-radius:10px;background:conic-gradient(from 20deg,var(--pink),var(--violet),var(--cyan),var(--pink));display:grid;place-items:center;font-size:13px;color:#120d2a;font-weight:900}
+.logo em{font-style:normal;color:var(--pink)}
+.nav-links{display:flex;gap:18px;font-size:14px;color:var(--sub);flex-wrap:wrap}
+.nav-links a:hover{color:var(--cyan)}
+.nav-search{margin-left:auto;display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.nav-search input{background:none;border:0;outline:none;color:var(--txt);width:150px;font-size:13px}
+.nav-search input::placeholder{color:#7b75a6}
+.nav-search button{background:none;border:0;color:var(--cyan);font-size:13px;cursor:pointer}
+
+/* banner */
+.banner{position:relative;overflow:hidden;border-bottom:1px solid var(--line);padding:56px 0 48px;
+  background:
+   radial-gradient(600px 300px at 80% 20%,rgba(255,122,198,.18),transparent 70%),
+   linear-gradient(180deg,rgba(34,26,78,.6),transparent 90%);
+}
+.banner-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:34px;align-items:center}
+.banner h1{font-size:34px;line-height:1.35;letter-spacing:.5px}
+.banner h1 span{background:linear-gradient(90deg,var(--pink),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.banner .lead{margin-top:14px;color:var(--sub);font-size:14.5px;max-width:620px}
+.tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.tag{font-size:12.5px;color:var(--cyan);border:1px solid rgba(100,226,255,.3);background:rgba(100,226,255,.07);padding:4px 11px;border-radius:999px}
+.banner-search{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+.banner-search input{flex:1;min-width:210px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--txt);outline:none}
+.banner-search input::placeholder{color:#7b75a6}
+.banner-search button{background:linear-gradient(135deg,var(--pink),var(--violet));border:0;color:#140f2c;font-weight:800;padding:12px 26px;border-radius:12px;cursor:pointer;font-size:14px}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{font-size:13px;padding:8px 15px;border-radius:999px;border:1px solid var(--line);color:var(--sub);background:var(--card)}
+.btn:hover{border-color:rgba(255,122,198,.5);color:var(--txt);transform:translateY(-1px)}
+.banner-art{position:relative;height:290px;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);
+  background:
+   radial-gradient(circle at 30% 28%,rgba(255,122,198,.55),transparent 42%),
+   radial-gradient(circle at 72% 68%,rgba(100,226,255,.5),transparent 45%),
+   linear-gradient(140deg,#241a55,#120d2a);
+}
+.banner-art .ring{position:absolute;border:1px solid rgba(255,255,255,.16);border-radius:50%}
+.banner-art .r1{width:210px;height:210px;left:50%;top:50%;transform:translate(-50%,-50%)}
+.banner-art .r2{width:130px;height:130px;left:50%;top:50%;transform:translate(-50%,-50%)}
+.banner-art .core{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;font-weight:800;font-size:16px;letter-spacing:1px}
+.banner-art .core small{display:block;font-weight:400;font-size:11.5px;color:var(--sub);letter-spacing:.5px;margin-top:6px}
+
+/* stats */
+.stat-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}
+.stat{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;transition:.25s}
+.stat:hover{transform:translateY(-3px);border-color:rgba(255,122,198,.35)}
+.stat b{display:block;font-size:21px;color:var(--cyan)}
+.stat span{font-size:12.5px;color:var(--sub)}
+
+/* cards */
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--radius);padding:18px;transition:.25s;display:flex;flex-direction:column;gap:10px}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:rgba(155,123,255,.4)}
+.card h3{font-size:16px;line-height:1.5}
+.card .desc{font-size:13px;color:var(--sub);line-height:1.7}
+.card .meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:#8f88bb;margin-top:auto;padding-top:8px;border-top:1px dashed var(--line)}
+.card .meta b{color:var(--gold);font-weight:600}
+.cover{height:96px;border-radius:12px;position:relative;overflow:hidden;border:1px solid var(--line)}
+.cover::after{content:attr(data-tag);position:absolute;left:10px;bottom:8px;font-size:11px;background:rgba(0,0,0,.45);padding:2px 8px;border-radius:999px;color:#fff}
+.cv1{background:linear-gradient(135deg,#ff7ac6,#7a4bff)}
+.cv2{background:linear-gradient(135deg,#64e2ff,#3f5bff)}
+.cv3{background:linear-gradient(135deg,#ffd479,#ff7a5c)}
+.cv4{background:linear-gradient(135deg,#9b7bff,#3a2a86)}
+.cv5{background:linear-gradient(135deg,#5cffc8,#2b7a9e)}
+.cv6{background:linear-gradient(135deg,#ff9b8a,#a148ff)}
+.pill{font-size:11.5px;padding:2px 9px;border-radius:999px;background:rgba(155,123,255,.16);color:#c7b8ff;border:1px solid rgba(155,123,255,.25)}
+
+/* list */
+.up-list{display:flex;flex-direction:column;gap:10px}
+.up-item{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;transition:.2s}
+.up-item:hover{background:var(--card2);border-color:rgba(100,226,255,.3)}
+.up-item .no{font-size:13px;color:var(--cyan);width:26px;flex:none;font-weight:700}
+.up-item .t{font-size:14.5px;flex:none;min-width:150px;font-weight:600}
+.up-item .s{font-size:12.5px;color:var(--sub);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.up-item .d{font-size:12px;color:#8f88bb;white-space:nowrap}
+
+/* cats */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cat{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.22s}
+.cat:hover{transform:translateY(-3px);border-color:rgba(255,122,198,.4)}
+.cat i{font-style:normal;width:36px;height:36px;border-radius:10px;display:grid;place-items:center;font-size:14px;font-weight:800;color:#150f2d;background:linear-gradient(135deg,var(--pink),var(--violet))}
+.cat div b{display:block;font-size:14px}
+.cat div span{font-size:12px;color:var(--sub)}
+
+/* article */
+.prose{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px}
+.prose h2{font-size:22px;margin-bottom:16px;padding-left:14px;position:relative}
+.prose h2::before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:4px;border-radius:3px;background:linear-gradient(180deg,var(--cyan),var(--violet))}
+.prose h3{font-size:16.5px;margin:22px 0 8px;color:var(--cyan)}
+.prose p{color:#cdc8ec;font-size:14.5px;margin-bottom:12px;text-align:justify}
+.prose ul{margin:0 0 14px 20px;color:#cdc8ec;font-size:14.5px}
+.prose li{margin-bottom:6px}
+.prose .k{color:var(--gold);font-weight:600}
+
+/* guide */
+.guide{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.guide .card h3{color:var(--cyan);font-size:15.5px}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.faq h3{font-size:15px;color:var(--pink);margin-bottom:8px}
+.faq p{font-size:13.5px;color:var(--sub)}
+
+/* comments */
+.cmt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.cmt-h{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;color:#150f2d}
+.cmt-h b{font-size:13.5px}
+.cmt-h time{margin-left:auto;font-size:11.5px;color:#7e78a8}
+.cmt p{font-size:13px;color:#c6c1e6}
+
+/* news */
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.news .card h3{font-size:15.5px}
+.news .card time{font-size:12px;color:#8f88bb}
+
+/* footer */
+.footer{border-top:1px solid var(--line);background:rgba(11,8,26,.7);padding:42px 0 26px;margin-top:20px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:26px}
+.footer h4{font-size:14px;margin-bottom:12px;color:var(--txt)}
+.footer p,.footer li{font-size:12.5px;color:#8f88bb;line-height:1.9}
+.footer ul{list-style:none}
+.footer a:hover{color:var(--cyan)}
+.copy{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:#7a75a2;text-align:center}
+
+@media (max-width:980px){
+  .banner-grid,.grid-3,.grid-4,.grid-2,.cat-grid,.guide,.faq-grid,.cmt-grid,.news,.stat-strip,.footer-grid{grid-template-columns:repeat(2,1fr)}
+  .banner h1{font-size:26px}
+  .nav-links{display:none}
+  .nav-search{margin-left:auto}
+}
+@media (max-width:620px){
+  .banner-grid,.grid-3,.grid-4,.grid-2,.cat-grid,.guide,.faq-grid,.cmt-grid,.news,.stat-strip,.footer-grid{grid-template-columns:1fr}
+  .banner h1{font-size:22px}
+  .prose{padding:20px 18px}
+  .nav-search input{width:110px}
+  .up-item{flex-wrap:wrap;gap:6px}
+  .up-item .s{display:none}
+  .sec{padding:36px 0}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="logo" href="/#top"><span class="mark">91</span>91次元<em>网页版</em></a>
+    <nav class="nav-links">
+      <a href="/#hot">热门推荐</a>
+      <a href="/#latest">更新动态</a>
+      <a href="/#cats">番剧分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#news">次元资讯</a>
+    </nav>
+    <form class="nav-search" onsubmit="return false;">
+      <input type="text" placeholder="搜番剧 / 标签 / 声优" aria-label="站内搜索">
+      <button type="button">搜索</button>
+    </form>
+  </div>
+</header>
+
+<section class="banner" id="top">
+  <div class="wrap">
+    <div class="banner-grid">
+      <div>
+        <h1>91次元网页版：<span>在线追番与次元内容一站浏览</span></h1>
+        <p class="lead">聚合番剧分类、更新节奏、口碑评价与观看顺序建议，91次元网页版相关内容在这里按主题梳理，方便动漫爱好者快速定位想看的作品类型，了解每季新番与老番补番的取舍。</p>
+        <p class="lead">页面同时整理入口说明、常见疑问与同类次元站对比，帮助你在众多资源渠道中做出更清晰的判断，减少无效点击与反复切换。</p>
+        <div class="tag-row">
+          <span class="tag">新番速览</span>
+          <span class="tag">补番顺序</span>
+          <span class="tag">声优阵容</span>
+          <span class="tag">制作公司</span>
+          <span class="tag">画风解析</span>
+          <span class="tag">更新日历</span>
+        </div>
+        <form class="banner-search" onsubmit="return false;">
+          <input type="text" placeholder="输入番剧名、题材或关键词，例如：异世界 / 治愈 / 悬疑">
+          <button type="button">立即检索</button>
+        </form>
+        <div class="btn-row">
+          <a class="btn" href="/#hot">热门番剧榜</a>
+          <a class="btn" href="/#latest">今日更新</a>
+          <a class="btn" href="/#guide">追番指南</a>
+          <a class="btn" href="/#cats">题材分类</a>
+          <a class="btn" href="/#deep">深度解析</a>
+          <a class="btn" href="/#faq">常见疑问</a>
+          <a class="btn" href="/#news">次元资讯</a>
+        </div>
+      </div>
+      <div class="banner-art" aria-hidden="true">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="core">91次元网页版<small>次元内容 · 追番专题导航</small></div>
+      </div>
+    </div>
+    <div class="stat-strip">
+      <div class="stat"><b>1,200+</b><span>收录番剧条目参考</span></div>
+      <div class="stat"><b>26</b><span>题材分类维度</span></div>
+      <div class="stat"><b>每日</b><span>更新动态追踪</span></div>
+      <div class="stat"><b>4.6</b><span>综合口碑参考分</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 内容简介 -->
+<section class="sec" id="intro">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>91次元网页版内容简介与使用定位</h2>
+      <p>先弄清楚这个页面能解决什么，再决定要不要收藏。</p>
+    </div>
+    <div class="prose">
+      <p><span class="k">91次元网页版</span>这个搜索词背后，通常对应三类真实需求：一是想了解这个次元向内容站点大致提供什么类型的动漫资源与栏目；二是想确认观看入口、更新节奏和分类方式是否适合自己的追番习惯；三是已经在别的平台追番，想找一个信息更集中、能横向比较的参考页面。本页围绕这三点组织内容，把“资源入口”之外的判断信息补齐。</p>
+      <p>从内容消费角度看，动漫用户的决策链条其实很长：先被画风或题材吸引，再看制作公司与声优，接着关心集数、更新频率和是否有续作，最后才考虑在哪里看、要不要追更。91次元网页版相关页面如果只给一堆链接，读者仍然难以判断。因此这里按“题材—作品—看点—更新—口碑—常见问题”的顺序铺开，让搜索者在前 300 字内就能确认主题，也能顺着模块继续往下读。</p>
+      <p>本页适合的受众包括：刚接触次元向内容站、需要一份清晰导航的新观众；每季固定追三四部新番、想快速筛选的老观众；以及偏爱补番、希望按题材和年代系统梳理的深度爱好者。对这三类人，页面提供的信息颗粒度不同，但都能找到可用的参考点。</p>
+      <p>值得收藏的理由在于：番剧信息变化快，单季新番的讨论热度往往只有几周，而分类维度、观看顺序建议、画风与节奏的判断标准相对稳定。把这类判断标准沉淀在一个页面里，下次换季时重新对照，比每次从零开始搜索更省时间。91次元网页版作为主题词，在这里承担的是“索引 + 判断”的双重角色，而不是单一入口。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 热门推荐 -->
+<section class="sec" id="hot">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>热门番剧与内容推荐</h2>
+      <p>按题材、口碑与讨论热度综合排列，卡片信息包含类型、标签与看点摘要。</p>
+      <a class="sec-more" href="/#latest">查看更新动态</a>
+    </div>
+    <div class="grid-3">
+      <article class="card">
+        <div class="cover cv1" data-tag="奇幻 / 冒险"></div>
+        <h3>《星轨回响》第一季</h3>
+        <div class="tag-row"><span class="pill">异世界</span><span class="pill">群像</span><span class="pill">高燃</span></div>
+        <p class="desc">以星象师学徒的成长为主线，前六集节奏偏稳，第八集后战斗分镜明显提速，适合喜欢世界观铺陈的观众。</p>
+        <div class="meta"><span>热度 <b>9.4</b></span><span>更新至 11 话</span><span>口碑稳</span></div>
+      </article>
+      <article class="card">
+        <div class="cover cv2" data-tag="悬疑 / 推理"></div>
+        <h3>《雾港档案》</h3>
+        <div class="tag-row"><span class="pill">悬疑</span><span class="pill">双线叙事</span><span class="pill">冷色调</span></div>
+        <p class="desc">单元剧结构，每两集收束一个案件，主线藏在细节道具里。画风偏冷，配乐克制，适合一口气连看。</p>
+        <div class="meta"><span>热度 <b>9.1</b></span><span>更新至 8 话</span><span>烧脑向</span></div>
+      </article>
+      <article class="card">
+        <div class="cover cv3" data-tag="治愈 / 日常"></div>
+        <h3>《午后三点的面包店》</h3>
+        <div class="tag-row"><span class="pill">治愈</span><span class="pill">美食</span><span class="pill">慢节奏</span></div>
+        <p class="desc">没有强冲突的日常番，靠细节和食物特写作画撑起氛围，适合睡前放松或通勤碎片时间观看。</p>
+        <div class="meta"><span>热度 <b>8.7</b></span><span>更新至 9 话</span><span>解压向</span></div>
+      </article>
+      <article class="card">
+        <div class="cover cv4" data-tag="科幻 / 机甲"></div>
+        <h3>《零点协议 ZERO》</h3>
+        <div class="tag-row"><span class="pill">机甲</span><span class="pill">政治戏</span><span class="pill">硬核设定</span></div>
+        <p class="desc">设定信息密度高，前三集需要耐心，机设与战斗演出是最大卖点，适合喜欢推演阵营关系的观众。</p>
+        <div class="meta"><span>热度 <b>9.0</b></span><span>更新至 10 话</span><span>硬核向</span></div>
+      </article>
+      <article class="card">
+        <div class="cover cv5" data-tag="校园 / 青春"></div>
+        <h3>《放课后信号塔》</h3>
+        <div class="tag-row"><span class="pill">校园</span><span class="pill">青春</span><span class="pill">轻恋爱</span></div>
+        <p class="desc">广播社题材，台词密度高，角色关系推进自然。作画中规中矩，但情绪铺陈做得扎实。</p>
+        <div class="meta"><span>热度 <b>8.5</b></span><span>更新至 7 话</span><span>轻甜向</span></div>
+      </article>
+      <article class="card">
+        <div class="cover cv6" data-tag="热血 / 竞技"></div>
+        <h3>《逆风球场》</h3>
+        <div class="tag-row"><span class="pill">竞技</span><span class="pill">成长</span><span class="pill">团队</span></div>
+        <p class="desc">运动番常见套路，但队伍磨合写得细，关键比赛的分镜张力足，适合喜欢看角色一步步变强的观众。</p>
+        <div class="meta"><span>热度 <b>8.9</b></span><span>更新至 12 话</span><span>燃向</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 最新更新 -->
+<section class="sec" id="latest">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>更新动态与追番提醒</h2>
+      <p>以 2026 年 11 月 7 日为准的模拟更新信息，用于展示页面结构。</p>
+      <a class="sec-more" href="/#guide">追番指南</a>
+    </div>
+    <div class="up-list">
+      <div class="up-item"><span class="no">01</span><span class="t">星轨回响</span><span class="s">第 11 话已上线，主线推进至星象塔争夺战</span><span class="d">11-07</span></div>
+      <div class="up-item"><span class="no">02</span><span class="t">雾港档案</span><span class="s">第 8 话更新，旧案线索与当前案件首次交汇</span><span class="d">11-07</span></div>
+      <div class="up-item"><span class="no">03</span><span class="t">午后三点的面包店</span><span class="s">第 9 话上线，秋季限定菜单特辑</span><span class="d">11-07</span></div>
+      <div class="up-item"><span class="no">04</span><span class="t">零点协议 ZERO</span><span class="s">第 10 话更新，阵营会议戏份拉满</span><span class="d">11-06</span></div>
+      <div class="up-item"><span class="no">05</span><span class="t">放课后信号塔</span><span class="s">第 7 话上线，广播社迎来新成员</span><span class="d">11-06</span></div>
+      <div class="up-item"><span class="no">06</span><span class="t">逆风球场</span><span class="s">第 12 话更新，地区预选赛进入决胜局</span><span class="d">11-05</span></div>
+      <div class="up-item"><span class="no">07</span><span class="t">星轨回响</span><span class="s">官方公开第二季制作决定预告</span><span class="d">11-05</span></div>
+      <div class="up-item"><span class="no">08</span><span class="t">雾港档案</span><span class="s">第 9 话预告放出，双线叙事或将收束</span><span class="d">11-04</span></div>
+      <div class="up-item"><span class="no">09</span><span class="t">剧场版特辑</span><span class="s">次元站整理经典剧场版重温清单</span><span class="d">11-03</span></div>
+      <div class="up-item"><span class="no">10</span><span class="t">零点协议 ZERO</span><span class="s">第 11 话更新，机甲改修设定公开</span><span class="d">11-02</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 分类入口 -->
+<section class="sec" id="cats">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>番剧分类入口</h2>
+      <p>按题材与消费场景划分，方便按心情或时间预算筛选。</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat" href="/#hot"><i>幻</i><div><b>异世界奇幻</b><span>世界观优先</span></div></a>
+      <a class="cat" href="/#hot"><i>悬</i><div><b>悬疑推理</b><span>烧脑连看</span></div></a>
+      <a class="cat" href="/#hot"><i>愈</i><div><b>治愈日常</b><span>碎片时间</span></div></a>
+      <a class="cat" href="/#hot"><i>机</i><div><b>科幻机甲</b><span>设定硬核</span></div></a>
+      <a class="cat" href="/#hot"><i>校</i><div><b>校园青春</b><span>轻情绪向</span></div></a>
+      <a class="cat" href="/#hot"><i>竞</i><div><b>热血竞技</b><span>成长燃向</span></div></a>
+      <a class="cat" href="/#latest"><i>新</i><div><b>本季新番</b><span>更新追踪</span></div></a>
+      <a class="cat" href="/#guide"><i>补</i><div><b>经典补番</b><span>按年代梳理</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- 深度解析 -->
+<section class="sec" id="deep">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>深度解析：91次元网页版相关内容的判断维度</h2>
+      <p>搜索这个词的人，多数不是想读通稿，而是想快速建立判断标准。</p>
+    </div>
+    <div class="prose">
+      <h3>一、题材与类型：先看标签，再看标签背后的实际执行</h3>
+      <p>次元向内容站的分类往往做得很细，异世界、转生、日常、悬疑、机甲、运动、校园恋爱等标签可以叠出十几种组合。但标签只是入口，真正决定观感的是执行：同样是“异世界”，有的作品把重心放在世界观规则和资源分配上，有的则把篇幅让给角色互动与情绪戏。<span class="k">91次元网页版</span>相关页面在整理时，会尽量把“标签 + 实际看点”一起写清楚，避免只看标签就点进去、看两集再退出的情况。</p>
+      <h3>二、人物与群像：主角之外，配角是否立得住</h3>
+      <p>近几年的高口碑作品，很多不是靠单一主角撑场，而是靠群像。判断一部番的群像是否合格，可以看两点：配角是否有独立的目标和行动逻辑；关键转折是否由配角推动而非仅服务于主角高光。以《星轨回响》为例，星象塔争夺战的高潮并不是主角单方面爆发，而是几个立场不同的角色同时做出选择，这种处理让讨论区在更新后的两三天里持续有内容可聊。</p>
+      <h3>三、视听表现：画风、分镜与配乐的分工</h3>
+      <p>画风决定第一印象，分镜决定战斗与情绪戏的上限，配乐决定记忆点。三者并不总是同步在线：有的作品人设精细但动作戏偏保守，有的作品作画朴素却靠分镜和音效做出压迫感。看91次元网页版这类聚合页面时，建议把“画风”“分镜”“配乐”分开评估，而不是用一句“制作好”概括。冷色调悬疑番和暖色调治愈番的美术目标本就不同，横向比较时要注意区分基准。</p>
+      <h3>四、节奏与消费体验：周更还是连看</h3>
+      <p>节奏是很多观众忽略的变量。单元剧适合周更，每集收束一个案件，隔一周再看也不容易断线；连续主线的作品更适合攒几集连看，否则伏笔容易忘。91次元网页版相关整理中会标注“适合连看”或“适合周更”，目的就是让观众按自己的时间预算选择，而不是被更新速度绑架。</p>
+      <h3>五、同类比较与搜索意图</h3>
+      <p>搜索91次元网页版的人，常见意图包括：想确认站点内容范围、想找某类番剧的集中入口、想对比几个次元站的分类与更新效率。对应地，本页给出的不是单一结论，而是一套可复用的判断方法：先定题材，再看人物与视听，最后匹配节奏与观看方式。掌握这套顺序后，换季、换站、换题材都能沿用，不必每次重新摸索。</p>
+      <p>需要说明的是，任何聚合页面都无法替代实际观看。页面能做的是把信息组织得更有条理，减少试错成本；至于哪部作品真正合口味，仍然取决于个人对题材、画风和节奏的偏好。把本页当作筛选器而不是结论书，使用体验会更接近预期。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 体验指南 -->
+<section class="sec" id="guide">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>浏览与追番体验指南</h2>
+      <p>从页面结构到使用习惯，几条能立刻用上的建议。</p>
+    </div>
+    <div class="guide">
+      <div class="card">
+        <h3>先分类，再浏览</h3>
+        <p class="desc">不要一上来就翻长列表。先用题材分类缩小范围，再在结果里看标签与看点摘要，能明显减少无效点击。</p>
+      </div>
+      <div class="card">
+        <h3>移动端阅读友好</h3>
+        <p class="desc">页面在手机上自动收成单列，卡片信息不挤压，通勤时单手滑动即可完成筛选与阅读。</p>
+      </div>
+      <div class="card">
+        <h3>建立自己的追更清单</h3>
+        <p class="desc">把每周固定更新的两三部记下来，其余攒着连看。周更与连看分开管理，追番压力会小很多。</p>
+      </div>
+      <div class="card">
+        <h3>用相关推荐扩展路径</h3>
+        <p class="desc">看完一部后，顺着同题材、同制作公司或同声优的推荐继续找，比随机点开效率更高。</p>
+      </div>
+      <div class="card">
+        <h3>留意更新节奏说明</h3>
+        <p class="desc">标注“适合连看”的作品，尽量攒够三到四集再开始；标注“适合周更”的，可以跟着讨论区节奏走。</p>
+      </div>
+      <div class="card">
+        <h3>把常见问题当筛选器</h3>
+        <p class="desc">FAQ 部分覆盖观看顺序、题材选择与更新关注点，带着具体问题去读，比通读全文更快。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>91次元网页版常见问题</h2>
+      <p>围绕内容范围、观看顺序与选择建议整理的六个问答。</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq">
+        <h3>Q1：91次元网页版主要适合哪类观众？</h3>
+        <p>适合已经有明确题材偏好的动漫观众，尤其是每季固定追几部新番、同时想补经典老番的人。如果你只是想随便看看，建议先从治愈日常或校园青春类入手，门槛低、单集信息量适中；如果你偏爱硬核设定，可以从科幻机甲和悬疑推理两个方向切入。</p>
+      </div>
+      <div class="faq">
+        <h3>Q2：新番应该按什么顺序看比较合理？</h3>
+        <p>建议先看第一集判断画风与节奏是否合口味，再决定是否连看。连续主线的作品，攒三到四集一起看更连贯；单元剧结构则可以周更跟随。若一部作品前三集仍在大量铺设定，可以先去讨论区确认后续节奏，再决定是否继续。</p>
+      </div>
+      <div class="faq">
+        <h3>Q3：页面里的分类和标签怎么用更高效？</h3>
+        <p>先按大题材筛选，再用标签做二次过滤。例如先选“悬疑推理”，再看是否带“双线叙事”“冷色调”等标签。标签越多不代表越好看，而是代表风格越明确，风格明确的作品更容易出现两极评价，建议结合看点摘要一起判断。</p>
+      </div>
+      <div class="faq">
+        <h3>Q4：怎么判断一部番值不值得追更？</h3>
+        <p>可以看三个信号：更新后讨论区是否有具体内容可聊、配角是否有独立行动线、关键集是否有明确的演出设计。三者占两项以上，通常值得继续跟；如果连续几集只靠单一角色推进，且没有新的信息量，可以先搁置，等完结后一次性补。</p>
+      </div>
+      <div class="faq">
+        <h3>Q5：同类次元站之间应该怎么比较？</h3>
+        <p>重点比较三项：分类维度是否够细、更新信息是否及时、页面是否适配移动端。分类细意味着筛选效率高，更新及时意味着追更体验好，移动端适配则决定碎片时间能不能用。至于界面风格，属于个人偏好，不必作为主要判断依据。</p>
+      </div>
+      <div class="faq">
+        <h3>Q6：补老番时容易踩哪些坑？</h3>
+        <p>最常见的是按热度乱序补，导致剧情线断裂；其次是忽略版本差异，同一作品不同版本在画幅和剪辑上可能不同。建议先确认观看顺序，再按年代或系列顺序推进。如果时间有限，优先补与该题材当前新番关联度高的作品，理解成本更低。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 评论 -->
+<section class="sec" id="comments">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>观众评论与讨论</h2>
+      <p>来自近 30 天的模拟评论，语气与立场尽量保持多样。</p>
+    </div>
+    <div class="cmt-grid">
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff7ac6,#9b7bff)">阿</span><b>阿岚不熬夜</b><time>11-06</time></div><p>星轨回响第 11 话的分镜确实有进步，但前六集真的太慢了，差点弃掉。建议新观众直接从第五集开始。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#64e2ff,#3f5bff)">雾</span><b>雾港观察员</b><time>11-06</time></div><p>雾港档案的细节埋得挺深，第二集那个道具在第八集才回收。这种结构适合连看，周更容易忘。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ffd479,#ff7a5c)">面</span><b>面包店常客</b><time>11-05</time></div><p>午后三点的面包店是我这季唯一没快进的番，食物特写做得用心，睡前看一集刚好。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#9b7bff,#3a2a86)">零</span><b>零点机设党</b><time>11-05</time></div><p>零点协议的机设很强，但政治戏台词太密，前三集差点劝退。撑过去之后确实好看。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#5cffc8,#2b7a9e)">信</span><b>信号塔下</b><time>11-04</time></div><p>放课后信号塔属于那种不惊艳但很稳的番，台词自然，没有硬塞的冲突，适合放松看。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff9b8a,#a148ff)">逆</span><b>逆风看台</b><time>11-04</time></div><p>逆风球场第 12 话决胜局节奏拉得不错，但前面训练戏有点重复，可以适当快进。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff7ac6,#64e2ff)">小</span><b>小满追番中</b><time>11-03</time></div><p>这个页面分类做得比一般聚合页细，至少能按题材筛，不用在长列表里翻半天。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#9b7bff,#ffd479)">夜</span><b>夜航星</b><time>11-03</time></div><p>希望更新动态能再及时一点，有些番我这边看到第三集，页面还停在第二集的描述。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#3f5bff,#5cffc8)">清</span><b>清风不识字</b><time>11-02</time></div><p>91次元网页版这个词我搜了好几次，主要是想找一个信息集中的地方，别每次换季都重新找站。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#a148ff,#ff9b8a)">补</span><b>补番计划表</b><time>11-02</time></div><p>建议加一个按年代筛选的功能，补老番的时候按年份排会顺手很多，现在只能靠标签猜。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff7a5c,#ffd479)">声</span><b>声优考据癖</b><time>11-01</time></div><p>如果能把主要角色的声优列在卡片里就更好了，我选番基本先看声优阵容。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#2b7a9e,#64e2ff)">中</span><b>中立观众甲</b><time>10-31</time></div><p>整体信息还行，但部分作品的看点写得偏宣传口吻，希望能多一些中性评价。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#3a2a86,#9b7bff)">周</span><b>周三更新党</b><time>10-30</time></div><p>周更党表示更新日历很有用，至少知道哪天该打开页面看。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff7ac6,#ffd479)">画</span><b>画风优先</b><time>10-29</time></div><p>画风解析这块希望再细一点，比如色彩和摄影处理，现在偏概括。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#5cffc8,#9b7bff)">路</span><b>路人转粉</b><time>10-28</time></div><p>本来只是随便点进来，结果按分类找了两部没听过的番，意外还不错。</p></div>
+      <div class="cmt"><div class="cmt-h"><span class="avatar" style="background:linear-gradient(135deg,#ff9b8a,#64e2ff)">慢</span><b>慢热型选手</b><time>10-27</time></div><p>慢热番在聚合页容易吃亏，希望标注里能写清楚“第几集开始起势”，省得错过。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 资讯 -->
+<section class="sec" id="news">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>次元资讯与动态</h2>
+      <p>围绕番剧、制作与观看体验的六条资讯摘要。</p>
+      <a class="sec-more" href="/#latest">更多动态</a>
+    </div>
+    <div class="news">
+      <article class="card">
+        <time>2026-11-07</time>
+        <h3>本季新番过半，口碑分化明显</h3>
+        <p class="desc">连续主线作品整体评价高于单元剧，观众对“前几集慢热”的容忍度出现下降趋势。</p>
+      </article>
+      <article class="card">
+        <time>2026-11-06</time>
+        <h3>多部作品宣布续作制作决定</h3>
+        <p class="desc">包括星轨回响在内的几部高讨论度作品公开续作预告，具体档期待定。</p>
+      </article>
+      <article class="card">
+        <time>2026-11-05</time>
+        <h3>冷色调悬疑番的摄影处理被讨论</h3>
+        <p class="desc">观众开始关注色彩与摄影对氛围的贡献，相关解析内容阅读量上升。</p>
+      </article>
+      <article class="card">
+        <time>2026-11-04</time>
+        <h3>补番清单类内容需求增加</h3>
+        <p class="desc">换季前后，按年代与题材整理的补番清单更受关注，长尾词搜索量走高。</p>
+      </article>
+      <article class="card">
+        <time>2026-11-03</time>
+        <h3>移动端观看占比继续提升</h3>
+        <p class="desc">碎片时间观看成为主流，短集数与单元剧结构的优势进一步放大。</p>
+      </article>
+      <article class="card">
+        <time>2026-11-02</time>
+        <h3>次元站分类维度成为比较重点</h3>
+        <p class="desc">用户在多个站点之间切换时，分类细度与更新及时性成为主要判断依据。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>91次元网页版 · 主题导航页</h4>
+        <p>本页围绕91次元网页版相关搜索需求，整理番剧分类、更新动态、深度解析与常见问题，为动漫爱好者提供结构化参考。页面内容为信息聚合与经验整理，不提供任何视听文件存储或传播服务。</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="/#hot">热门推荐</a></li>
+          <li><a href="/#latest">更新动态</a></li>
+          <li><a href="/#cats">番剧分类</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>延伸阅读</h4>
+        <ul>
+          <li><a href="/#guide">追番指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">次元资讯</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>友情链接占位</h4>
+        <ul>
+          <li>次元资讯站（占位）</li>
+          <li>番剧评分参考（占位）</li>
+          <li>声优资料库（占位）</li>
+          <li>制作公司档案（占位）</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      © 2026 91次元网页版主题导航页 · 内容为信息整理与观点汇总，仅供参考 · 请支持正版观看渠道
+    </div>
+  </div>
+</footer>
+
+</body>
+        </html>
